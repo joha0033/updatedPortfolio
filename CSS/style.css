@@ -1,0 +1,82 @@
+h1{
+  padding-top: 6%;
+}
+h4{
+  padding-bottom: 6%;
+}
+h5{
+  color: white;
+}
+.header_text{
+  background-color: #33658A;
+  color: white;
+}
+
+a{
+  color: white; !important;
+}
+
+.navbar{
+  background-color: #56829E;
+}
+.logo{
+  max-height: 75px;
+}
+.spreader{
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.card-image{
+  /*width: auto;*/
+  /*max-width: 75%;*/
+  /*height: auto;*/
+  /*max-height: 50%;*/
+  background-size:100%;
+  margin-left: auto;
+	margin-right: auto;
+  z-index: -1;
+  overflow: hidden;
+	/*display: block;*/
+}
+
+.container {
+  width: 680px;
+  margin: 0px auto;
+  position: relative;
+  /* HAVE SCALED TO FIT THE WINDOW */
+  /*transform: scale(0.5);*/
+}
+
+.container > .screen {
+  width: 460px;
+  height: 280px;
+  position: relative;
+  background: #fff;
+  background-size:100%;
+  margin-top: 2%;
+  margin-left: auto;
+	margin-right: auto;
+  border: 20px solid #474e5d;
+  border-radius: 10px;
+}
+
+.monitor > div {
+  position: absolute;
+  z-index: 1;
+}
+
+.monitor:before,
+.monitor:after{
+   content: "";
+   position: absolute;
+   left: 50%;
+ }
+
+.monitor:before{
+  top: -10px;
+  margin: -3px 0 0 -3px;
+  width: 6px;
+  height: 6px;
+  border-radius: 6px;
+  background: #a5adbd;
+} */
